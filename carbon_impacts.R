@@ -1,5 +1,4 @@
 ##Carbon Impacts
-## Contact: Anna Ballasiotes
 ## Last updated: 12/20/2023
 
 library(readxl)

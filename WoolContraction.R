@@ -1,5 +1,4 @@
 ## Wool Contraction
-## Contact: Anna Ballasiotes
 ## Last updated: 12/19/2023
 
 
@@ -153,7 +152,7 @@ for (i in seq(from = 5, to = 100, by = 5)) {
   
   eval_p05_land_wc <- rbind(eval_p05_land_wc,eval_p05_land_wc_i)
   
-  filename <- paste0("~/GEF Fashion/Data/Prioritizr/DATAVAULT/land_s1_wc", i, "pct.tif", overwrite = TRUE)
+  filename <- paste0("Wool/land_s1_wc", i, "pct.tif", overwrite = TRUE)
   
    writeRaster(
      land_s1_wc_i, filename)

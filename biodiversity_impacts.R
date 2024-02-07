@@ -1,5 +1,4 @@
-## Extract biodiversity data from FP footprints
-## Contact: Anna Ballasiotes
+## Extract biodiversity data from scenario footprints
 ## Last updated: 01/30/2023
 
 library(tidyverse)
@@ -174,7 +173,8 @@ wool_contraction = extractRowsByString(summary_results, "scenario", "wc")
 
 cashmere_contraction = extractRowsByString(summary_results, "scenario", "cshc")
 
-contraction_summary_land <- contraction_summary %>% filter(type == "land")
+contraction_summary_land <- contraction_summary %>% filter(type == "land") # May need to add "land" column for relevant scenarios,
+                                                                           # if production AND land scenarios were run
 
 contraction_summary_land$commodity <- factor(contraction_summary_land$commodity, levels = c("cashmere", "cotton", "wool"), 
                   labels = c("Cashmere", "Cotton", "Wool"))
@@ -190,43 +190,5 @@ ggplot(contraction_summary_land, aes(x = pct, y = total_species, color = scenari
   labs(x = "% Land Footprint Removed", title = "Red List Species (Biodiversity)", y = "Species Count", ) +
   geom_line(size = 1)
 
-
-
-#### CARBON
-
-contraction_summary_carbon <- read.csv('~/GEF Fashion/Data/Carbon/CONTRACTION/ContractionSummary.csv')
-
-contraction_summary_land_carbon <- contraction_summary_carbon %>% 
-                                      filter(Production == "Land") %>%
-                                      filter(Carbon == "Median")
-
-ggplot(contraction_summary_land_carbon, aes(x = Pct, y = CO2, color = ScenarioType, linetype = Commodity)) +
-  geom_point() +
-  #geom_abline(intercept = 0, slope = 0.01, linetype = 2) +
-  scale_colour_manual(values = c("#8ec92f", "#bebada", "#000000"), name = "Scenario",
-                      labels = c("Nature Prioritized", "Nature Not Prioritized")) +
-  theme_minimal() + 
-  facet_wrap(vars(Commodity), scales = "free") + 
-  theme(text = element_text(family = "Corbel", size = 16)) +
-  labs(x = "% Production Landscape Reduced", title = "Carbon Potential in Reduced Landscape", y = expression(CO[2] * "e (Gt)") ) +
-  geom_line(size = 1)
-
-
-
-contraction_summary_all_carbon <- contraction_summary_carbon %>% 
-  filter(Carbon == "Median")
-
-contraction_summary_all_carbon$Commodity
-
-ggplot(contraction_summary_all_carbon, aes(x = Pct, y = CO2, color = ScenarioType, linetype = Commodity)) +
-  geom_point() +
-  #geom_abline(intercept = 0, slope = 0.01, linetype = 2) +
-  scale_colour_manual(values = c("#8ec92f", "#bebada"), name = "Scenario",
-                      labels = c("Nature Prioritized", "Nature Not Prioritized")) +
-  theme_minimal() + 
-  facet_grid(. ~ Commodity2, scales = "free_y") + 
-  theme(text = element_text(family = "Corbel", size = 16)) +
-  labs(x = "% Production Landscape Reduced", title = "Carbon Potential in Reduced Landscape", y = expression(CO[2] * "e (Gt)")) + 
-  geom_line(size = 1)
 
 

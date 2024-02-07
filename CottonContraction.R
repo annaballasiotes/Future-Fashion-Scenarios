@@ -1,5 +1,4 @@
 ## Cotton Contraction
-## Contact: Anna Ballasiotes
 ## Last updated: 12/19/2023
 
 library(readxl)
@@ -156,7 +155,7 @@ for (i in seq(from = 5, to = 100, by = 5)) {
   
   eval_p05_land_cc <- rbind(eval_p05_land_cc,eval_p05_land_i)
   
-  filename <- paste0("~/GEF Fashion/Data/Prioritizr/DATAVAULT/land_s1_cc_", i, "pct.tif")
+  filename <- paste0("Cotton/land_s1_cc_", i, "pct.tif")
   
   writeRaster(
     land_s1_cc_i, filename)

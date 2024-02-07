@@ -1,5 +1,4 @@
 ## Cashmere Contraction
-## Contact: Anna Ballasiotes
 ## Last updated: 12/19/2023
 
 library(readxl)
