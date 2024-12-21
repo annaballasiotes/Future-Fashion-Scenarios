@@ -1,0 +1,73 @@
+,FullName,Name,Carbon,Production,Commodity,Commodity2,Pct,ScenarioType,carbon_Gt,CO2
+1,Animal_med_masked_COC_land_s1_cc_100pct,land_s1_cc_100pct,Median,Land,Cotton,Cotton (Land),100,Nature,0.41525244,1.523976456
+2,Animal_med_masked_COC_land_s1_cc_100pct_noBioC,land_s1_cc_100pct_noBioC,Median,Land,Cotton,Cotton (Land),100,NoBioC,0.41525244,1.523976456
+3,Animal_med_masked_COC_land_s1_cc_10pct,land_s1_cc_10pct,Median,Land,Cotton,Cotton (Land),10,Nature,0.027354124,0.100389634
+4,Animal_med_masked_COC_land_s1_cc_10pct_noBioC,land_s1_cc_10pct_noBioC,Median,Land,Cotton,Cotton (Land),10,NoBioC,0.000436365,0.001601458
+5,Animal_med_masked_COC_land_s1_cc_20pct,land_s1_cc_20pct,Median,Land,Cotton,Cotton (Land),20,Nature,0.054940006,0.201629821
+6,Animal_med_masked_COC_land_s1_cc_20pct_noBioC,land_s1_cc_20pct_noBioC,Median,Land,Cotton,Cotton (Land),20,NoBioC,0.001187313,0.004357439
+7,Animal_med_masked_COC_land_s1_cc_30pct,land_s1_cc_30pct,Median,Land,Cotton,Cotton (Land),30,Nature,0.104964457,0.385219559
+8,Animal_med_masked_COC_land_s1_cc_30pct_noBioC,land_s1_cc_30pct_noBioC,Median,Land,Cotton,Cotton (Land),30,NoBioC,0.002531299,0.009289867
+9,Animal_med_masked_COC_land_s1_cc_60pct,land_s1_cc_60pct,Median,Land,Cotton,Cotton (Land),60,Nature,0.27447749,1.007332388
+10,Animal_med_masked_COC_land_s1_cc_60pct_noBioC,land_s1_cc_60pct_noBioC,Median,Land,Cotton,Cotton (Land),60,NoBioC,0.022787515,0.083630179
+11,Animal_med_masked_COC_land_s1_cshc100pct,land_s1_cshc100pct,Median,Land,Cashmere,Cashmere,100,Nature,0.319845352,1.17383244
+12,Animal_med_masked_COC_land_s1_cshc100pct_NoBioC,land_s1_cshc100pct_NoBioC,Median,Land,Cashmere,Cashmere,100,NoBioC,0.319845352,1.17383244
+13,Animal_med_masked_COC_land_s1_cshc10pct,land_s1_cshc10pct,Median,Land,Cashmere,Cashmere,10,Nature,0.078938879,0.289705687
+14,Animal_med_masked_COC_land_s1_cshc10pct_NoBioC,land_s1_cshc10pct_NoBioC,Median,Land,Cashmere,Cashmere,10,NoBioC,0.005599963,0.020551864
+15,Animal_med_masked_COC_land_s1_cshc20pct,land_s1_cshc20pct,Median,Land,Cashmere,Cashmere,20,Nature,0.126935435,0.465853047
+16,Animal_med_masked_COC_land_s1_cshc20pct_NoBioC,land_s1_cshc20pct_NoBioC,Median,Land,Cashmere,Cashmere,20,NoBioC,0.013386268,0.049127602
+17,Animal_med_masked_COC_land_s1_cshc30pct,land_s1_cshc30pct,Median,Land,Cashmere,Cashmere,30,Nature,0.162942027,0.597997239
+18,Animal_med_masked_COC_land_s1_cshc30pct_NoBioC,land_s1_cshc30pct_NoBioC,Median,Land,Cashmere,Cashmere,30,NoBioC,0.024284736,0.089124982
+19,Animal_med_masked_COC_land_s1_cshc60pct,land_s1_cshc60pct,Median,Land,Cashmere,Cashmere,60,Nature,0.26906801,0.987479598
+20,Animal_med_masked_COC_land_s1_cshc60pct_NoBioC,land_s1_cshc60pct_NoBioC,Median,Land,Cashmere,Cashmere,60,NoBioC,0.073313818,0.269061713
+21,Animal_med_masked_COC_land_s1_wc100pct,land_s1_wc100pct,Median,Land,Wool,Wool,100,Nature,0.07907377,0.290200735
+22,Animal_med_masked_COC_land_s1_wc100pct_noBioC,land_s1_wc100pct_noBioC,Median,Land,Wool,Wool,100,NoBioC,0.07907377,0.290200735
+23,Animal_med_masked_COC_land_s1_wc10pct,land_s1_wc10pct,Median,Land,Wool,Wool,10,Nature,0.011278641,0.041392613
+24,Animal_med_masked_COC_land_s1_wc10pct_noBioC,land_s1_wc10pct_noBioC,Median,Land,Wool,Wool,10,NoBioC,0.001099202,0.004034073
+25,Animal_med_masked_COC_land_s1_wc20pct,land_s1_wc20pct,Median,Land,Wool,Wool,20,Nature,0.023042322,0.08456532
+26,Animal_med_masked_COC_land_s1_wc20pct_noBioC,land_s1_wc20pct_noBioC,Median,Land,Wool,Wool,20,NoBioC,0.003343735,0.012271508
+27,Animal_med_masked_COC_land_s1_wc30pct,land_s1_wc30pct,Median,Land,Wool,Wool,30,Nature,0.034723752,0.127436169
+28,Animal_med_masked_COC_land_s1_wc30pct_noBioC,land_s1_wc30pct_noBioC,Median,Land,Wool,Wool,30,NoBioC,0.006996983,0.025678928
+29,Animal_med_masked_COC_land_s1_wc60pct,land_s1_wc60pct,Median,Land,Wool,Wool,60,Nature,0.065883798,0.241793537
+30,Animal_med_masked_COC_land_s1_wc60pct_noBioC,land_s1_wc60pct_noBioC,Median,Land,Wool,Wool,60,NoBioC,0.026626678,0.09771991
+31,Animal_min_masked_COC_land_s1_cc_100pct,land_s1_cc_100pct,Minimum,Land,Cotton,Cotton (Land),100,Nature,0.216739912,0.795435477
+32,Animal_min_masked_COC_land_s1_cc_100pct_noBioC,land_s1_cc_100pct_noBioC,Minimum,Land,Cotton,Cotton (Land),100,NoBioC,0.216739912,0.795435477
+33,Animal_min_masked_COC_land_s1_cc_10pct,land_s1_cc_10pct,Minimum,Land,Cotton,Cotton (Land),10,Nature,0.020215871,0.074192247
+34,Animal_min_masked_COC_land_s1_cc_10pct_noBioC,land_s1_cc_10pct_noBioC,Minimum,Land,Cotton,Cotton (Land),10,NoBioC,0.000322775,0.001184585
+35,Animal_min_masked_COC_land_s1_cc_20pct,land_s1_cc_20pct,Minimum,Land,Cotton,Cotton (Land),20,Nature,0.032983074,0.12104788
+36,Animal_min_masked_COC_land_s1_cc_20pct_noBioC,land_s1_cc_20pct_noBioC,Minimum,Land,Cotton,Cotton (Land),20,NoBioC,0.000791639,0.002905314
+37,Animal_min_masked_COC_land_s1_cc_30pct,land_s1_cc_30pct,Minimum,Land,Cotton,Cotton (Land),30,Nature,0.048097161,0.176516581
+38,Animal_min_masked_COC_land_s1_cc_30pct_noBioC,land_s1_cc_30pct_noBioC,Minimum,Land,Cotton,Cotton (Land),30,NoBioC,0.001628714,0.005977379
+39,Animal_min_masked_COC_land_s1_cc_60pct,land_s1_cc_60pct,Minimum,Land,Cotton,Cotton (Land),60,Nature,0.1307605,0.479891034
+40,Animal_min_masked_COC_land_s1_cc_60pct_noBioC,land_s1_cc_60pct_noBioC,Minimum,Land,Cotton,Cotton (Land),60,NoBioC,0.015420061,0.056591623
+41,Animal_min_masked_COC_land_s1_cshc100pct,land_s1_cshc100pct,Minimum,Land,Cashmere,Cashmere,100,Nature,0.188647418,0.692336024
+42,Animal_min_masked_COC_land_s1_cshc100pct_NoBioC,land_s1_cshc100pct_NoBioC,Minimum,Land,Cashmere,Cashmere,100,NoBioC,0.188647418,0.692336024
+43,Animal_min_masked_COC_land_s1_cshc10pct,land_s1_cshc10pct,Minimum,Land,Cashmere,Cashmere,10,Nature,0.0533071,0.195637058
+44,Animal_min_masked_COC_land_s1_cshc10pct_NoBioC,land_s1_cshc10pct_NoBioC,Minimum,Land,Cashmere,Cashmere,10,NoBioC,0.003075296,0.011286337
+45,Animal_min_masked_COC_land_s1_cshc20pct,land_s1_cshc20pct,Minimum,Land,Cashmere,Cashmere,20,Nature,0.082989694,0.304572177
+46,Animal_min_masked_COC_land_s1_cshc20pct_NoBioC,land_s1_cshc20pct_NoBioC,Minimum,Land,Cashmere,Cashmere,20,NoBioC,0.007595159,0.027874233
+47,Animal_min_masked_COC_land_s1_cshc30pct,land_s1_cshc30pct,Minimum,Land,Cashmere,Cashmere,30,Nature,0.104086017,0.381995681
+48,Animal_min_masked_COC_land_s1_cshc30pct_NoBioC,land_s1_cshc30pct_NoBioC,Minimum,Land,Cashmere,Cashmere,30,NoBioC,0.014272976,0.052381822
+49,Animal_min_masked_COC_land_s1_cshc60pct,land_s1_cshc60pct,Minimum,Land,Cashmere,Cashmere,60,Nature,0.163670187,0.600669588
+50,Animal_min_masked_COC_land_s1_cshc60pct_NoBioC,land_s1_cshc60pct_NoBioC,Minimum,Land,Cashmere,Cashmere,60,NoBioC,0.043245243,0.158710041
+51,Animal_min_masked_COC_land_s1_wc100pct,land_s1_wc100pct,Minimum,Land,Wool,Wool,100,Nature,0.040049699,0.146982394
+52,Animal_min_masked_COC_land_s1_wc100pct_noBioC,land_s1_wc100pct_noBioC,Minimum,Land,Wool,Wool,100,NoBioC,0.040049699,0.146982394
+53,Animal_min_masked_COC_land_s1_wc10pct,land_s1_wc10pct,Minimum,Land,Wool,Wool,10,Nature,0.007634523,0.028018698
+54,Animal_min_masked_COC_land_s1_wc10pct_noBioC,land_s1_wc10pct_noBioC,Minimum,Land,Wool,Wool,10,NoBioC,0.000574077,0.002106864
+55,Animal_min_masked_COC_land_s1_wc20pct,land_s1_wc20pct,Minimum,Land,Wool,Wool,20,Nature,0.015595938,0.057237092
+56,Animal_min_masked_COC_land_s1_wc20pct_noBioC,land_s1_wc20pct_noBioC,Minimum,Land,Wool,Wool,20,NoBioC,0.001898702,0.006968236
+57,Animal_min_masked_COC_land_s1_wc30pct,land_s1_wc30pct,Minimum,Land,Wool,Wool,30,Nature,0.022437717,0.082346422
+58,Animal_min_masked_COC_land_s1_wc30pct_noBioC,land_s1_wc30pct_noBioC,Minimum,Land,Wool,Wool,30,NoBioC,0.004043305,0.01483893
+59,Animal_min_masked_COC_land_s1_wc60pct,land_s1_wc60pct,Minimum,Land,Wool,Wool,60,Nature,0.036769357,0.13494354
+60,Animal_min_masked_COC_land_s1_wc60pct_noBioC,land_s1_wc60pct_noBioC,Minimum,Land,Wool,Wool,60,NoBioC,0.013821369,0.050724424
+61,n/a,n/a,Median,Land,Cotton,Cotton (Land),0,Nature,0,0
+62,n/a,n/a,Median,Land,Cotton,Cotton (Land),0,NoBioC,0,0
+63,n/a,n/a,Median,Land,Cashmere,Cashmere,0,Nature,0,0
+64,n/a,n/a,Median,Land,Cashmere,Cashmere,0,NoBioC,0,0
+65,n/a,n/a,Median,Land,Wool,Wool,0,Nature,0,0
+66,n/a,n/a,Median,Land,Wool,Wool,0,NoBioC,0,0
+67,n/a,n/a,Minimum,Land,Cotton,Cotton (Land),0,Nature,0,0
+68,n/a,n/a,Minimum,Land,Cotton,Cotton (Land),0,NoBioC,0,0
+69,n/a,n/a,Minimum,Land,Cashmere,Cashmere,0,Nature,0,0
+70,n/a,n/a,Minimum,Land,Cashmere,Cashmere,0,NoBioC,0,0
+71,n/a,n/a,Minimum,Land,Wool,Wool,0,Nature,0,0
+72,n/a,n/a,Minimum,Land,Wool,Wool,0,NoBioC,0,0
