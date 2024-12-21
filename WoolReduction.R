@@ -1,4 +1,4 @@
-## Wool Contraction
+## Wool Reduction
 ## Last updated: 12/20/2024
 
 
@@ -20,7 +20,7 @@ wd <- #Set working directory to where repo is stored
 
 setwd(wd)
 
-#Suffix for Wool Contraction: wc
+#Suffix for Wool Reduction: wc
 
 #Need:
 # 1. Land Footprint of Existing Wool (goats, GLWv4)

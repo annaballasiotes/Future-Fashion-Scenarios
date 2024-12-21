@@ -1,9 +1,9 @@
-## Cotton Contraction
+## Cotton Reduction
 ## Last updated: 12/20/2024
 
 library(readxl)
 library(tidyverse)
-library(prioritizr)
+library(prioritizr) #https://prioritizr.net/articles/prioritizr.html
 library(rgdal)
 library(rcbc)
 library(terra)
@@ -21,7 +21,7 @@ wd <- #Set working directory to where repo is stored
   
 setwd(wd)
 
-#Suffix for Cotton Contraction: cc
+#Suffix for Cotton Reduction: cc
 
 #Need:
 # 1. Land Footprint of Existing Cotton (SPAM)

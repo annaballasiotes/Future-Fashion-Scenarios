@@ -1,9 +1,9 @@
-## Cashmere Contraction
+## Cashmere Reduction
 ## Last updated: 12/20/2024
 
 library(readxl)
 library(tidyverse)
-library(prioritizr)
+library(prioritizr) #https://prioritizr.net/articles/prioritizr.html
 library(rgdal)
 library(rcbc)
 library(terra)
@@ -18,7 +18,7 @@ wd <- #Set working directory to where repo is stored
   
 setwd(wd)
 
-#Code for Cashmere Contraction: cshc
+#Code for Cashmere Reduction: cshc
 
 #Need:
 # 1. Land Footprint of Existing Cashmere (goats, GLWv4)
